@@ -117,6 +117,17 @@ body *, .userPopout-3XzG_A * {
   width: 0px;
 }
 
+.wordmarkWindows-2dq6rw::after {
+  content: '';
+  display: inline-block;
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/Fallout4TerminalTheme/svg/title.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  background-color: var(--highlight);
+  width: 240px !important;
+  height: 14px !important;
+}
+
 /* --== Styling the weird "Connect PlayStation Network" popout ==-- */
 .container-xB0xPf {
   background-color: var(--background);
